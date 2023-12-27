@@ -1,6 +1,12 @@
 import '@/styles/globals.css'
-// import '../styles/style.css'
-// import '../public/nav'
+import  Nav from '../component/nav'
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <>
+  
+
+  <Nav/>
+ 
+
+  <Component {...pageProps} />
+  </>
 }

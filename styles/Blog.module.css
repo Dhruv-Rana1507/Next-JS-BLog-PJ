@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+
+.blogImage h3{
+  background-color: rgb(116, 116, 147);
+  cursor: pointer;
+  padding: 50px;
+  margin: 70px;
+  border-radius: 20px;
+
+}

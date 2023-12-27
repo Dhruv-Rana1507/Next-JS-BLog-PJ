@@ -244,16 +244,31 @@
   border: 2px solid red;
   margin: 50px;  
 }
+
+.mainnav  {
+
+  /* border: 2px solid rgb(66, 66, 12); */
+}
+
+.mainnav ul{
+  padding: 0;
+  margin: 0;
+}
 .mainnav ul li{
   list-style: none;
   margin: 30px;
   display: flex;
+  /* border: 2px solid red; */
   flex-wrap: wrap;
-  border: 2px solid red;
   padding: 10px;
 }
 .hding{
   margin: 10px;
   align-items: center;
   font-family: cursive;
+}
+
+
+.myImg{
+  border-radius :50px;
 }
