@@ -16,7 +16,7 @@ const blog = () => {
       <h3>the blog content
       </h3>
       <h3>the blog content
-      </h3>
+      </h3> 
     </div>
     </main>
   </div>
