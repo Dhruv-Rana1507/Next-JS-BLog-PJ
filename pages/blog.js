@@ -8,21 +8,20 @@ const blog = () => {
       fetch('http://localhost:3000/api/blogs').then((a)=>{
        return a.json();})
        .then(parsed =>{
-        console.log(parsed)
         setblogs(parsed)
       })
 },[])
   
 
 
-  return (<div className="blog">
+  return (<div className={styles.blog}>
       <main className={styles.main}>
 
         {blogs.map((blogitem)=>{
           return <div key={blogitem.title}>
         <Link href={`/blogpost/${blogitem.slug}`}>
-         <h3>{blogitem.title}</h3></Link>
-          <p>{blogitem.content.substr(0,140)}...</p>
+         <h3 className={styles.title}>{blogitem.title}</h3></Link>
+          <p className={styles.content}>{blogitem.content.substr(0,140)}...</p>
           </div>
         })}
 

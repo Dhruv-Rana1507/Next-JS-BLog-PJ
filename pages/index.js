@@ -28,39 +28,20 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
-        {/* <script src='/try.js    '></script> */}
       </Head>
       
       
-      {/* <nav className={styles.mainnav}>
-        <ul>
-          <Link href='/'><li>Home</li></Link>
-          <Link href='/blog'><li>Blog</li></Link>
-          <Link href='/about'><li>About</li></Link>
-          <Link href='/contact'><li>Contact</li></Link>
-          
-        </ul>
-      </nav> */}
+     
       <main className={`${styles.main} ${inter.className}`}>
         
           {/* the tmp is globaly imported from temp.js  */}
-          <h1 className='hding tmp'>
-            Hunting Coders
-            </h1>
+          <h1 className={styles.hding}>Gaming Blogs</h1>
         
         <Image className={styles.myImg} src= "/bj.jpg" width={400} height={266}/>
 
 
-
-
-
-          
-        
-
-        
-
-        <div className="blog ">
-          <div className="blogImage ">
+        <div className={styles.blog}>
+          <div className={styles.blogImage}>
             <h3>the blog content
             </h3>
             <h3 >the blog content
@@ -70,6 +51,12 @@ export default function Home() {
             <h3>the blog content
             </h3>
           </div>
+        </div>
+        <div className={styles.foter}> 
+        {/* Copyright Footer */}
+        <footer className={styles.footer}>
+          <p>&copy; {new Date().getFullYear()} Momo Blog. All Rights Reserved.</p>
+        </footer>
         </div>
       </main>
     </>
