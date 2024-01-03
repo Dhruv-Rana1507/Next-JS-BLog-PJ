@@ -1,17 +1,42 @@
+/* Blog.module.css */
+
+.blog {
+  padding: 20px;
+}
+
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #000000;
+  font-size: 3rem;
+  margin-bottom: 0.9rem;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #ffffffb3; /* Change the color to your preference on hover */
+}
+
+.content {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 600px) {
+  .main {
+    padding: 0 10px;
   }
 
-.blogImage h3{
-  background-color: rgb(116, 116, 147);
-  cursor: pointer;
-  padding: 50px;
-  margin: 70px;
-  border-radius: 20px;
+  .title {
+    font-size: 1.3rem;
+  }
 
+  .content {
+    font-size: 0.9rem;
+  }
 }
