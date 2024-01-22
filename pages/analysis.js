@@ -19,7 +19,7 @@ const Analysis = () => {
 
       <section className={styles.section}>
         <ol>
-          <li>Demographic Analysis: Understanding the demographic characteristics of individuals seeking mental health care, such as age, gender, ethnicity, and socio-economic factors.</li>
+          <li>Demographic Analysis: Undersxvbvjsbhjbftanding the demographic characteristics of individuals seeking mental health care, such as age, gender, ethnicity, and socio-economic factors.</li>
           <li>Treatment Effectiveness:Assessing the effectiveness of different mental health treatments and interventions. This could involve analyzing patient outcomes, recovery rates, and relapse prevention.</li>
           <li>Access to Services:Examining the accessibility of mental health services, identifying barriers to access, and proposing strategies to improve the availability of care.</li>
           <li>Prevalence of Mental Health Conditions: Analyzing the prevalence of various mental health conditions within a population, identifying trends, and understanding risk factors.</li>
